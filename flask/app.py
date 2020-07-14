@@ -4,7 +4,7 @@ from sklearn.svm import SVC
 import joblib
 
 # Load model from disk
-loaded_pipeline = joblib.load('../models/fake_title_SVM_model.sav')
+loaded_pipeline = joblib.load('../models/fake_body_SVM_model.sav')
 loaded_pipeline
 
 app = Flask(__name__)
