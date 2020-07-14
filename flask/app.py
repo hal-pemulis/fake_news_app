@@ -1,6 +1,4 @@
 from flask import Flask, request, render_template
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.svm import SVC
 import joblib
 
 # Load model from disk

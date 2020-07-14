@@ -1,3 +1,4 @@
+$ pip Freeze
 appnope==0.1.0
 click==6.7
 decorator==4.1.2
