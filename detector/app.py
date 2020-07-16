@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 import joblib
 
 # Load model pipeline from disk
-loaded_pipeline = joblib.load('../05_Models/fake_title_SVM_pipeline.sav')
+loaded_pipeline = joblib.load('../models/fake_title_SVM_pipeline.sav')
 
 app = Flask(__name__)
 
